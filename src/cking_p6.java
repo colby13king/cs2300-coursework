@@ -22,7 +22,7 @@ public class cking_p6 {
 		  int[][] mat3 = readMatrixFromFile("cking_mat3.txt");
 		  int[][] mat4 = readMatrixFromFile("cking_mat4.txt");
 		  int[][] mat5 = readMatrixFromFile("cking_mat5.txt");
-		  int[][] mat6 = readMatrixFromFile("cking_mat6.txt");
+		  
 
 		  //transposes the matrix
 		  int[][] transposedMat1 = transposeMatrix(mat1);
@@ -30,7 +30,7 @@ public class cking_p6 {
 		  int[][] transposedMat3 = transposeMatrix(mat3);
 		  int[][] transposedMat4 = transposeMatrix(mat4);
 		  int[][] transposedMat5 = transposeMatrix(mat5);
-		  int[][] transposedMat6 = transposeMatrix(mat6);
+		  
 
 		  //writes the transposed matrix to a new file
 		  writeMatrixToFile(transposedMat1, "cking_p6_mat1.txt");
@@ -38,7 +38,7 @@ public class cking_p6 {
 		  writeMatrixToFile(transposedMat3, "cking_p6_mat3.txt");
 		  writeMatrixToFile(transposedMat4, "cking_p6_mat4.txt");
 		  writeMatrixToFile(transposedMat5, "cking_p6_mat5.txt");
-		  writeMatrixToFile(transposedMat6, "cking_p6_mat6.txt");
+		  
 	  }
 	  
 	  // This method transposes a matrix
