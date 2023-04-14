@@ -1,3 +1,8 @@
+/*
+ * Colby King
+ * CS2300
+ * Program Assigment 2 Part 3
+ */
 
 
 import java.util.Scanner;
