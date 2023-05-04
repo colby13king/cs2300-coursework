@@ -22,7 +22,7 @@ public class paAssignment2 {
 
             convertImplicitToParametric(a, b, c);
         } else if (choice == 2) {
-            System.out.println("Enter x0, y0, and the direction vector (vx, vy) for the parametric equation:");
+            System.out.println("Enter x0, y0, and the direction Vector4 (vx, vy) for the parametric equation:");
             double x0 = scanner.nextDouble();
             double y0 = scanner.nextDouble();
             double vx = scanner.nextDouble();
@@ -60,7 +60,7 @@ public class paAssignment2 {
 
     public static void convertParametricToImplicit(double x0, double y0, double vx, double vy) {
         if (vx == 0 && vy == 0) {
-            System.out.println("Invalid direction vector. vx and vy cannot both be zero.");
+            System.out.println("Invalid direction Vector4. vx and vy cannot both be zero.");
             return;
         }
 

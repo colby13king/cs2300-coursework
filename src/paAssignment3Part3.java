@@ -67,12 +67,12 @@ public class paAssignment3Part3 {
 	    }
 	    
 	    private static double[] calculateNormal(double[][] points) {
-	        double[] vector1 = {points[1][0] - points[0][0], points[1][1] - points[0][1], points[1][2] - points[0][2]};
-	        double[] vector2 = {points[2][0] - points[0][0], points[2][1] - points[0][1], points[2][2] - points[0][2]};
+	        double[] Vector41 = {points[1][0] - points[0][0], points[1][1] - points[0][1], points[1][2] - points[0][2]};
+	        double[] Vector42 = {points[2][0] - points[0][0], points[2][1] - points[0][1], points[2][2] - points[0][2]};
 	        return new double[]{
-	                vector1[1] * vector2[2] - vector1[2] * vector2[1],
-	                vector1[2] * vector2[0] - vector1[0] * vector2[2],
-	                vector1[0] * vector2[1] - vector1[1] * vector2[0]};
+	                Vector41[1] * Vector42[2] - Vector41[2] * Vector42[1],
+	                Vector41[2] * Vector42[0] - Vector41[0] * Vector42[2],
+	                Vector41[0] * Vector42[1] - Vector41[1] * Vector42[0]};
 	    }
 
 

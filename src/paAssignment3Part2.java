@@ -48,7 +48,7 @@ public class paAssignment3Part2 {
             double lambda1 = (trace + Math.sqrt(discriminant)) / 2;
             double lambda2 = (trace - Math.sqrt(discriminant)) / 2;
 
-            // Calculate eigenvectors
+            // Calculate eigenVector4s
             double[][] R = new double[2][2];
 
             for (int i = 0; i < 2; i++) {

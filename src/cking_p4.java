@@ -28,11 +28,11 @@ public class cking_p4 {
 	    writeResultToFile("name_p4_sv.txt", sv);
 	  }
 
-	  // This method calculates the dot product of two vectors
-	  private static int dotProduct(int[] firstVector, int[] secondVector) {
+	  // This method calculates the dot product of two Vector4s
+	  private static int dotProduct(int[] firstVector4, int[] secondVector4) {
 	    int dotProduct = 0;
-	    for (int i = 0; i < firstVector.length; i++) {
-	      dotProduct += firstVector[i] * secondVector[i];
+	    for (int i = 0; i < firstVector4.length; i++) {
+	      dotProduct += firstVector4[i] * secondVector4[i];
 	    }
 	    return dotProduct;
 	  }
